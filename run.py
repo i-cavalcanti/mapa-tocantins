@@ -60,6 +60,8 @@ if __name__ == "__main__":
             <li><strong>Telefone:</strong> {row['telefone']}</li>
             <li><strong>Municipio:</strong> {row['nome_municipio']}</li>
             <li><strong>Geocode precisão:</strong> {color_map[row['precisao']]}</li>
+            <li><strong>Latitude:</strong> {row['lat']}</li>
+            <li><strong>Longitude:</strong> {row['lon']}</li>
         </ul>
         """
         
